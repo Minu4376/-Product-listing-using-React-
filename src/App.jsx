@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from './components/Navbar'
-import Products from './components/products'
-import { filterdData } from './components/products'
+import Products from './components/Products'
+import { filterdData } from './components/Products'
 import { productdata } from './data/productData'
 const App = () => {
   const [filtered, setFiltered] = useState([]);
