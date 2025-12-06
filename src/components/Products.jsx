@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { productdata } from '../data/productData'
-import Product from './product'
+import Product from './Product'
 
 
 export const filterdData = (value, selectedCattegories) => {

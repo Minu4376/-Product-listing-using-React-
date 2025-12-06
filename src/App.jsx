@@ -16,8 +16,8 @@ const App = () => {
   };
 
   const handleSort = (type) => {
-    const products = filtered.length > 0 ? filtered : productdata;
-    let sorted = [...products];
+    const product = filtered.length > 0 ? filtered : productdata;
+    let sorted = [...product];
 
     if (type === "low-high") {
       sorted.sort((a, b) => a.price - b.price);
